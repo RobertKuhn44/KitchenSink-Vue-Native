@@ -72,7 +72,11 @@ export default {
         {
           route: "NHListSeparator",
           text: "List Separator"
-        }
+        },
+        {
+          route: "WorkoutsList",
+          text: "Workout Programs"
+        },
       ]
     };
   }

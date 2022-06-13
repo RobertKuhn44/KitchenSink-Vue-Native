@@ -99,6 +99,7 @@ import NestedLayoutScreen from "./screens/layout/nestedLayout";
 
 import ListScreen from "./screens/list";
 import BasicListScreen from "./screens/list/basicList";
+import WorkoutsList from "./screens/list/WorkoutsList";
 import ListAvatarScreen from "./screens/list/avatarList";
 import ListDividerScreen from "./screens/list/dividerList";
 import ListHeaderScreen from "./screens/list/headerList";
@@ -175,7 +176,8 @@ const Drawer = createDrawerNavigator(
     NHTab: { screen: TabScreen },
     NHThumbnail: { screen: ThumbnailScreen },
     NHToast: { screen: ToastScreen },
-    NHTypography: { screen: TypographyScreen }
+    NHTypography: { screen: TypographyScreen },
+    WorkoutsList: { screen: WorkoutsList },
   },
   {
     initialRouteName: "Home",
@@ -266,6 +268,7 @@ const AppNavigation = createAppContainer(
       NHListSeparator: { screen: ListSeparatorScreen },
       NHListThumbnail: { screen: ListThumbnailScreen },
       NHListItemSelected: { screen: ListItemSelectedScreen },
+      WorkoutsList: { screen: WorkoutsList },
 
       // BasicListSwipe: { screen: BasicListSwipeScreen },
       // MultiListSwipe: { screen: MultiListSwipeScreen },
